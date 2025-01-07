@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
-import {Poppins} from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
-
+import Navbar from "@/components/Navbar";
+import ThemeToggle from "@/components/ThemeToggle";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import { ThemeProvider } from 'next-themes';
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,10 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={poppins.className}
-      >
-        {children}
+      <body className={poppins.className}>
+        <ThemeProvider attribute="class">
+          <Navbar />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
