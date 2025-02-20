@@ -1,5 +1,8 @@
 "use client";
 import Image1 from '../assets/img/38.jpg'
+import Image2 from '../assets/img/39.png'
+import Image3 from '../assets/img/40.png'
+import Image4 from '../assets/img/41.png'
 
 import Carousel from "@/components/ui/carousel";
 export function CarouselDemo() {
@@ -10,19 +13,19 @@ export function CarouselDemo() {
             src: Image1,
         },
         {
-            title: "Urban Dreams",
+            title: "T-Shirt Design #1",
             button: "Explore Component",
-            src: "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            src: Image2,
         },
         {
-            title: "Neon Nights",
+            title: "Random Poster #2",
             button: "Explore Component",
-            src: "https://images.unsplash.com/photo-1590041794748-2d8eb73a571c?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            src: Image3,
         },
         {
-            title: "Desert Whispers",
+            title: "Random Poster#3",
             button: "Explore Component",
-            src: "https://images.unsplash.com/photo-1679420437432-80cfbf88986c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            src: Image4,
         },
     ];
     return (
