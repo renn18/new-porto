@@ -1,8 +1,4 @@
 "use client";
-import Image1 from '../assets/img/38.jpg'
-import Image2 from '../assets/img/39.png'
-import Image3 from '../assets/img/40.png'
-import Image4 from '../assets/img/41.png'
 
 import Carousel from "@/components/ui/carousel";
 export function CarouselDemo() {
@@ -10,22 +6,22 @@ export function CarouselDemo() {
         {
             title: "Random Poster #1",
             button: "Explore Component",
-            src: Image1,
+            src: "https://catatansibipolar.com/image/38.jpg",
         },
         {
             title: "T-Shirt Design #1",
             button: "Explore Component",
-            src: Image2,
+            src: "https://catatansibipolar.com/image/39.png",
         },
         {
             title: "Random Poster #2",
             button: "Explore Component",
-            src: Image3,
+            src: "https://catatansibipolar.com/image/40.png",
         },
         {
             title: "Random Poster#3",
             button: "Explore Component",
-            src: Image4,
+            src: "https://catatansibipolar.com/image/41.png",
         },
     ];
     return (
