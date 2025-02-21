@@ -2,42 +2,6 @@ import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 import Link from "next/link";
-import Image1 from "../../assets/img/1.png";
-import Image2 from "../../assets/img/2.png";
-import Image3 from "../../assets/img/3.png";
-import Image4 from "../../assets/img/4.png";
-import Image5 from "../../assets/img/5.png";
-import Image6 from "../../assets/img/6.png";
-import Image7 from "../../assets/img/7.png";
-import Image8 from "../../assets/img/8.png";
-import Image9 from "../../assets/img/9.png";
-import Image10 from "../../assets/img/10.png";
-import Image11 from "../../assets/img/11.png";
-import Image12 from "../../assets/img/12.png";
-import Image13 from "../../assets/img/13.png";
-import Image14 from "../../assets/img/14.png";
-import Image15 from "../../assets/img/15.png";
-import Image16 from "../../assets/img/16.png";
-import Image17 from "../../assets/img/17.png";
-import Image19 from "../../assets/img/19.png";
-import Image20 from "../../assets/img/20.png";
-import Image21 from "../../assets/img/21.png";
-import Image22 from "../../assets/img/22.png";
-import Image23 from "../../assets/img/23.png";
-import Image24 from "../../assets/img/24.png";
-import Image25 from "../../assets/img/25.png";
-import Image26 from "../../assets/img/26.png";
-import Image27 from "../../assets/img/27.png";
-import Image28 from "../../assets/img/28.png";
-import Image29 from "../../assets/img/29.png";
-import Image30 from "../../assets/img/30.png";
-import Image31 from "../../assets/img/31.png";
-import Image32 from "../../assets/img/32.png";
-import Image33 from "../../assets/img/33.png";
-import Image34 from "../../assets/img/34.png";
-import Image35 from "../../assets/img/35.png";
-import Image36 from "../../assets/img/36.png";
-import Image37 from "../../assets/img/37.png";
 
 export default function page() {
     const data = [
@@ -51,69 +15,34 @@ export default function page() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src={Image1}
+                            src="https://catatansibipolar.com/image/1.png"
                             alt="startup template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image3}
+                            src="https://catatansibipolar.com/image/2.png"
                             alt="startup template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image2}
+                            src="https://catatansibipolar.com/image/3.png"
                             alt="startup template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image4}
+                            src="https://catatansibipolar.com/image/4.png"
                             alt="startup template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                     </div>
-
-                    {/* <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-                        <Link href="https://eraport.darulasadiyah.rtechno.xyz/" target="_blank" className="hover:text-teal-500 text-sm md:text-lg">Laundry System (Laravel)</Link><br />
-                        A nice little website application for parents to check their children&apos;s report cards. Click the title for visit the app.
-                    </p>
-                    <div className="grid grid-cols-2 gap-4">
-                        <Image
-                            src={Image1}
-                            alt="startup template"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-                        />
-                        <Image
-                            src={Image3}
-                            alt="startup template"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-                        />
-                        <Image
-                            src={Image2}
-                            alt="startup template"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-                        />
-                        <Image
-                            src={Image4}
-                            alt="startup template"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-                        />
-                    </div> */}
                 </div >
             ),
         },
@@ -127,28 +56,28 @@ export default function page() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src={Image9}
+                            src="https://catatansibipolar.com/image/9.png"
                             alt="hero template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image10}
+                            src="https://catatansibipolar.com/image/10.png"
                             alt="feature template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image11}
+                            src="https://catatansibipolar.com/image/11.png"
                             alt="bento template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image12}
+                            src="https://catatansibipolar.com/image/12.png"
                             alt="cards template"
                             width={500}
                             height={500}
@@ -162,28 +91,28 @@ export default function page() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src={Image16}
+                            src="https://catatansibipolar.com/image/16.png"
                             alt="hero template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image13}
+                            src="https://catatansibipolar.com/image/13.png"
                             alt="feature template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image14}
+                            src="https://catatansibipolar.com/image/14.png"
                             alt="bento template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image15}
+                            src="https://catatansibipolar.com/image/15.png"
                             alt="cards template"
                             width={500}
                             height={500}
@@ -198,28 +127,28 @@ export default function page() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src={Image17}
+                            src="https://catatansibipolar.com/image/17.png"
                             alt="hero template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image19}
+                            src="https://catatansibipolar.com/image/19.png"
                             alt="feature template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image20}
+                            src="https://catatansibipolar.com/image/20.png"
                             alt="bento template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image21}
+                            src="https://catatansibipolar.com/image/21.png"
                             alt="cards template"
                             width={500}
                             height={500}
@@ -242,28 +171,28 @@ export default function page() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src={Image26}
+                            src="https://catatansibipolar.com/image/26.png"
                             alt="hero template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image27}
+                            src="https://catatansibipolar.com/image/27.png"
                             alt="feature template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image28}
+                            src="https://catatansibipolar.com/image/28.png"
                             alt="bento template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image29}
+                            src="https://catatansibipolar.com/image/29.png"
                             alt="cards template"
                             width={500}
                             height={500}
@@ -277,28 +206,28 @@ export default function page() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src={Image30}
+                            src="https://catatansibipolar.com/image/30.png"
                             alt="hero template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image31}
+                            src="https://catatansibipolar.com/image/31.png"
                             alt="feature template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image32}
+                            src="https://catatansibipolar.com/image/32.png"
                             alt="bento template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image33}
+                            src="https://catatansibipolar.com/image/33.png"
                             alt="cards template"
                             width={500}
                             height={500}
@@ -318,28 +247,28 @@ export default function page() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src={Image5}
+                            src="https://catatansibipolar.com/image/5.png"
                             alt="hero template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image6}
+                            src="https://catatansibipolar.com/image/6.png"
                             alt="feature template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image7}
+                            src="https://catatansibipolar.com/image/7.png"
                             alt="bento template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image8}
+                            src="https://catatansibipolar.com/image/8.png"
                             alt="cards template"
                             width={500}
                             height={500}
@@ -353,28 +282,28 @@ export default function page() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src={Image22}
+                            src="https://catatansibipolar.com/image/22.png"
                             alt="hero template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image23}
+                            src="https://catatansibipolar.com/image/23.png"
                             alt="feature template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image24}
+                            src="https://catatansibipolar.com/image/24.png"
                             alt="bento template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image25}
+                            src="https://catatansibipolar.com/image/25.png"
                             alt="cards template"
                             width={500}
                             height={500}
@@ -388,28 +317,28 @@ export default function page() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src={Image34}
+                            src="https://catatansibipolar.com/image/34.png"
                             alt="hero template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image35}
+                            src="https://catatansibipolar.com/image/35.png"
                             alt="feature template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image36}
+                            src="https://catatansibipolar.com/image/36.png"
                             alt="bento template"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src={Image37}
+                            src="https://catatansibipolar.com/image/37.png"
                             alt="cards template"
                             width={500}
                             height={500}
