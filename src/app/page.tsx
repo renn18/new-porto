@@ -1,10 +1,13 @@
+"use client";
 import { Button } from '@/components/ui/moving-border';
 import ThemeToggle from '../components/ThemeToggle';
 import FlipWords from '../components/ui/flip-words';
 import Link from 'next/link';
 import { Modal1 } from '@/components/Modal';
+import { useState } from "react";
 
 export default function Home() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const words = ["Software Dev", "Gamer", "Graphic Design", "Writer"];
   return (
     <div className="flex flex-col gap-5 justify-center min-h-screen py-2 px-3 bg-slate-50 dark:bg-black">
@@ -34,7 +37,7 @@ export default function Home() {
           </button>
         </Link> */}
 
-        <Modal1 />
+        <Modal1 onClose={() => setIsModalOpen(false)} />
       </div>
 
       <div className="hidden md:flex justify-center items-center my-10 overflow-x-auto relative z-20 no-visible-scrollbar" style={{ scrollbarWidth: 'none' }}>

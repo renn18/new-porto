@@ -11,6 +11,22 @@ export default function page() {
             content: (
                 <div>
                     <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+                        <p className="hover:text-teal-500 text-sm md:text-xl">Pro-PTSP (Android)</p><br />
+                        is a single government service application that aims to facilitate the public in obtaining information and services related to licensing and non-licensing.
+                    </p>
+                    <div className="grid grid-cols-2 gap-4">
+                        <ProjectShowcase
+                            images={[
+                                "https://catatansibipolar.com/image/42.jpg",
+                                "https://catatansibipolar.com/image/43.jpg",
+                                "https://catatansibipolar.com/image/44.jpg",
+                                "https://catatansibipolar.com/image/45.jpg",
+                            ]}
+                        />
+                    </div>
+
+
+                    <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 mt-12">
                         <p className="hover:text-teal-500 text-sm md:text-xl">E-rapor Darul As&apos;adiyah (Laravel)</p><br />
                         A nice little website application for parents to check their children&apos;s report cards. Click the title for visit the app.
                     </p>
@@ -24,6 +40,8 @@ export default function page() {
                             ]}
                         />
                     </div>
+
+
                 </div >
             ),
         },
