@@ -69,7 +69,6 @@ export function CarouselDemo() {
                         <ProjectShowcase images={selectedProjectImages} />
                     </div>
                 ) : (
-                    // Jika tidak, tampilkan Carousel
                     <Carousel slides={slidesForCarousel} />
                 )
             }
